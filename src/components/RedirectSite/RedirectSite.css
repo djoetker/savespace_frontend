@@ -1,0 +1,89 @@
+.container_navbar_redirect {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 0.5rem;
+}
+
+.container_navbar_redirect h4 {
+    font-weight: 200;
+}
+
+.container_navbar_redirect a {
+    border: 1px solid rgb(194, 194, 194);
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    transition: all 200ms;
+}
+
+.container_navbar_redirect a:active {
+    box-shadow: none;
+}
+
+.container_navbar_redirect * {
+    padding: 0.75rem;
+}
+
+hr {
+    margin-top: 0.5rem;
+}
+
+.container_redirect {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_urlview_redirect {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 80%;
+    display: flex;
+    background-color: white;
+    margin: 2rem;
+    padding: 0.5rem;
+}
+
+
+
+.subcontainer_favicon_redirect {
+    flex-basis: 0;
+    padding: 0.25rem;
+}
+
+.subcontainer_favicon_redirect img {
+    border: 1px solid rgb(175, 175, 175);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-radius: 50%;
+    height: 1.75rem;
+    width: 1.75rem;
+}
+
+.subcontainer_urlview_redirect {
+    flex-grow: 3;
+    padding: 1rem;
+}
+
+.subcontainer_urlview_redirect * {
+    margin-bottom: 0.75rem;
+}
+
+.subcontainer_redirect_button {
+    display: flex;
+    align-items: center;
+}
+
+.subcontainer_redirect_button a {
+    border: 1px solid rgb(182, 182, 182);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    text-decoration: none;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    color: black;
+    transition: all 200ms ease-in-out;
+}
+
+.subcontainer_redirect_button a:active {
+    box-shadow: none;
+}

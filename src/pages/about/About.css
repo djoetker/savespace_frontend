@@ -1,0 +1,21 @@
+.container_about {
+  display: flex;
+  justify-content: center;
+  height: 70vh;
+}
+
+.subcontainer_about_text {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.subcontainer_about_text * {
+  margin-bottom: 1rem;
+}
+
+.subcontainer_about_text span {
+  font-style: italic;
+  color: darkcyan;
+}

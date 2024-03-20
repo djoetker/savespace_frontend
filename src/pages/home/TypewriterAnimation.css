@@ -1,0 +1,15 @@
+.typewriter {
+    display: flex;
+    justify-content: first baseline;
+    width: 50%;
+    font-family: monospace;
+    font-size: 2rem;
+    white-space: nowrap;
+    margin: 0 auto;
+    /* width: fit-content; */
+}
+
+.typeEffect {
+    /* display: inline-block; */
+    margin-left: 14rem;
+}

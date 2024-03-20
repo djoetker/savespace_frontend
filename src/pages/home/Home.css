@@ -1,0 +1,31 @@
+.container_home {
+  height: 70vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.subcontainer_text {
+  width: 50%;
+  padding: 2rem;
+}
+
+.subcontainer_text h2 {
+  font-family: monospace;
+  font-weight: 100;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.subcontainer_text p {
+  font-family: monospace;
+  color: darkcyan;
+  line-height: 1.5;
+}
+
+.italic {
+  font-style: italic;
+  font-weight: bold;
+  color: black;
+}
