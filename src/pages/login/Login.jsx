@@ -36,16 +36,18 @@ function Login() {
             console.error(error);
             setLoginFailed(true);
         }
-    }
+    };
+
+    console.log("user: ", user);
 
     return (
         <div className="container_login">
             <section className="login_form">
                 <form action="submit" onSubmit={submitHandler}>
                     <label htmlFor="email">Email</label>
-                    <input type="text" name="email" id="email" required value={user.email} onChange={changeHandler} />
+                    <input type="text" name="email" id="email" required value={user?.email} onChange={changeHandler} />
                     <label htmlFor="password">Password</label>
-                    <input type="password" name="password" id="password" required value={user.password} onChange={changeHandler} />
+                    <input type="password" name="password" id="password" required value={user?.password} onChange={changeHandler} />
                     {loginFailed ? <p>Incorrect username or password</p> : <></>}
                     <button>Login</button>
                 </form>

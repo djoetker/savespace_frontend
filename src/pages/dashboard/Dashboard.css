@@ -36,7 +36,7 @@
 .subcontainer_url_info {
   flex-grow: 3;
   padding: 1rem;
-}
+overflow-wrap: break-word;}
 
 .subcontainer_url_info * {
   margin-bottom: 0.75rem;

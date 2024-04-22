@@ -18,6 +18,7 @@ function AuthContextProvider({ children }) {
         withCredentials: true
     });
 
+
     //Check for token in local storage and sned it via auth route to backend
 
     const checkAuth = async () => {
@@ -32,13 +33,15 @@ function AuthContextProvider({ children }) {
 
                     setAuthorized(false);
                 } else {
-                    console.error("An error occurred while checking authentication:", error.response.message);
+                    console.error("An error occurred while checking authentication:", error);
                 }
                 setIsLoading(false);
             });
     };
 
     useEffect(() => {
+        const cookies = document.cookie.split(';');
+        console.log("cookies: ", cookies);
         checkAuth();
     }, []);
 
